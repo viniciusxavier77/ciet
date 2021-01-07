@@ -1,4 +1,4 @@
-# ciet
+# CI&T
 ## Orientações API Rest
 
 ## Endpoints
