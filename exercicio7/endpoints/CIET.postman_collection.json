@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "bae008d0-104f-4366-b312-eeaca863560b",
+		"name": "CI&T",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/ciet/exercicio7/api.php/api/metodo/salvarUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nomeUsuario\": \"Luciana\",\n    \"loginUsuario\": \"luciana.lobo\",\n    \"emailUsuario\": \"lucianalobo7@hotmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/ciet/exercicio7/api.php/api/metodo/salvarUsuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ciet",
+						"exercicio7",
+						"api.php",
+						"api",
+						"metodo",
+						"salvarUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ciet/exercicio7/api.php/api/metodo/retornarUsuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/ciet/exercicio7/api.php/api/metodo/retornarUsuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ciet",
+						"exercicio7",
+						"api.php",
+						"api",
+						"metodo",
+						"retornarUsuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ciet/exercicio7/api.php/api/metodo/excluirUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"emailUsuario\": \"desde@hotmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/ciet/exercicio7/api.php/api/metodo/excluirUsuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ciet",
+						"exercicio7",
+						"api.php",
+						"api",
+						"metodo",
+						"excluirUsuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ciet/exercicio7/api.php/api/metodo/editarUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nomeUsuario\": \"Vinícius Barbosa Xavier\",\n    \"loginUsuario\": \"vinicius.xavier77@gmail.com\",\n    \"emailUsuario\": \"vinicius.xavier@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/ciet/exercicio7/api.php/api/metodo/editarUsuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ciet",
+						"exercicio7",
+						"api.php",
+						"api",
+						"metodo",
+						"editarUsuario"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
