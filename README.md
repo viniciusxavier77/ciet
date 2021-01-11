@@ -41,3 +41,6 @@
  
  ## Extra
  - Exemplos de chamadas foram colocados na pasta exercicio7/endpoints, onde existe uma collection em formato json para testes via Postman.
+ 
+## Outros tópicos
+ - Para que os respectivos arquivos txt's sejam criados, lembrar da permissão para leitura e escrita no diretório de criação.
