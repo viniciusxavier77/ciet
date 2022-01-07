@@ -1,4 +1,4 @@
-# CI&T
+# The Project
 ## Orientações API Rest
 
 ## Endpoints
